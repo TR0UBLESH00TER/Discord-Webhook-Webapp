@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="author" content="TR0UBLESH00OTER (github)">
+        <meta name="description" content="Discord Webhook Webapp">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Discord Webhook</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.0/css/all.css" integrity="sha384-yXyaKVWGB2SyDoYATyErcgoNH1iAnnf8fCXejZM4NYUbhWiGkZoMwh6IoJ4v5ogi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
+        <link rel="icon" href="https://gblobscdn.gitbook.com/spaces%2F-LZ-iDu00AANAyl8pR6r%2Favatar.png">
+    </head>
+
+    <body>
+        <div class="hero is-fullheight is-dark has-background-discord">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p class="subtitle has-text-dark">&copy; {{ CurrentYear }} <a href="https://github.com/TR0UBLESH00TER" class="has-text-dark">TR0UBLESH00TER</a> </p>
+                <p class="text has-text-dark">Made with 
+                    <a href="https://palletsprojects.com/p/flask/" class="has-text-dark"><i class="fas fa-pepper-hot fa-flip-horizontal"></i> Flask</a>
+                    and 
+                    <a href="https://bulma.io/" class="has-text-dark">Bulma</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</html>
